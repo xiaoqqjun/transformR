@@ -17,7 +17,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 }
 
 # 从GitHub安装transformR
-devtools::install_github("您的GitHub用户名/transformR")
+devtools::install_github("xiaoqqjun/transformR")
 ```
 
 ## 功能特点
