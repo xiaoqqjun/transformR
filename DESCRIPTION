@@ -23,3 +23,5 @@ Suggests:
     rmarkdown
 Config/testthat/edition: 3
 VignetteBuilder: knitr
+URL: https://github.com/xiaoqqjun/transformR
+BugReports: https://github.com/xiaoqqjun/transformR/issues
