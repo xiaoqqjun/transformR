@@ -1,0 +1,25 @@
+Package: transformR
+Title: Find Optimal Data Transformations
+Version: 0.1.0
+Authors@R: person("Zhijun Feng", email = "fengzhj18@sina.com", role = c("aut", "cre"))
+Description: Provides tools for finding the optimal transformation for skewed data
+    through multiple methods including square root, Box-Cox, Yeo-Johnson, inverse,
+    rank normalization, and hyperbolic arcsine transformations. The package evaluates
+    each transformation based on normality measures and recommends the best approach.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    MASS,
+    car,
+    moments,
+    stats,
+    graphics
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
